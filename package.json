@@ -1,0 +1,19 @@
+{
+  "name": "codedumptomd",
+  "version": "1.0.0",
+  "description": "Creates MD files from source code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tom-23/CodeDumpToMD.git"
+  },
+  "author": "Tom Butcher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tom-23/CodeDumpToMD/issues"
+  },
+  "homepage": "https://github.com/tom-23/CodeDumpToMD#readme"
+}
