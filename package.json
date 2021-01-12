@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tom-23/CodeDumpToMD/issues"
   },
-  "homepage": "https://github.com/tom-23/CodeDumpToMD#readme"
+  "homepage": "https://github.com/tom-23/CodeDumpToMD#readme",
+  "dependencies": {
+    "md-to-pdf": "^3.2.1"
+  }
 }
