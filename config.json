@@ -1,0 +1,8 @@
+{
+    "folders": ["/source/directory"],
+    "fileBlacklist": [],
+    "documentFilename": "output.md",
+    "documentTitle": "My Source Code",
+    "makeMD": true,
+    "makePDF": true
+}

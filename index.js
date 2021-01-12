@@ -1,13 +1,14 @@
 const fs = require('fs');
-var path = require('path');
+const path = require('path');
 const { mdToPdf } = require('md-to-pdf');
+const  config = require('./config.json');
 
-const folders = ['/source/directory']
-const outputFileName = "output";
-const title = "Output Title";
-const blackList = [""];
-const makeMD = true;
-const makePDF = true;
+const folders = config.folders;
+const outputFileName = config.documentFilename;
+const title = config.documentTitle;
+const blackList = config.fileBlacklist;
+const makeMD = config.makeMD;
+const makePDF = config.makePDF;
 
 let textBuf = "# " + title + " \r\n";
 
